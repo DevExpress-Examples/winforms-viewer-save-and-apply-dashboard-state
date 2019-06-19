@@ -1,4 +1,4 @@
-﻿Namespace WinFormsViewerSaveAndApplyDashboarState
+﻿Namespace WinFormsViewerSaveAndApplyDashboardState
 	Partial Public Class ViewerForm1
 		''' <summary>
 		''' Required designer variable.
@@ -25,7 +25,7 @@
 		Private Sub InitializeComponent()
 			Me.components = New System.ComponentModel.Container()
 			Me.dashboardViewer = New DevExpress.DashboardWin.DashboardViewer(Me.components)
-			CType(Me.dashboardViewer, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.dashboardViewer, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' dashboardViewer
@@ -39,10 +39,6 @@
 			Me.dashboardViewer.Size = New System.Drawing.Size(986, 628)
 			Me.dashboardViewer.TabIndex = 0
 			Me.dashboardViewer.UseNeutralFilterMode = True
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.dashboardViewer.DashboardLoaded += new DevExpress.DashboardWin.DashboardLoadedEventHandler(this.dashboardViewer_DashboardLoaded);
-'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
-'ORIGINAL LINE: this.dashboardViewer.SetInitialDashboardState += new DevExpress.DashboardWin.SetInitialDashboardStateEventHandler(this.dashboardViewer_SetInitialDashboardState);
 			' 
 			' ViewerForm1
 			' 
@@ -51,17 +47,17 @@
 			Me.ClientSize = New System.Drawing.Size(986, 628)
 			Me.Controls.Add(Me.dashboardViewer)
 			Me.Name = "ViewerForm1"
-			Me.Text = "Dashboard Viewer"
+			Me.Text = "Dashboard State Example"
 'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
 'ORIGINAL LINE: this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ViewerForm1_FormClosing);
-			CType(Me.dashboardViewer, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.dashboardViewer, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 
 		End Sub
 
 		#End Region
 
-		Private WithEvents dashboardViewer As DevExpress.DashboardWin.DashboardViewer
+		Private dashboardViewer As DevExpress.DashboardWin.DashboardViewer
 	End Class
 End Namespace
 

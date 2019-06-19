@@ -5,18 +5,22 @@ Imports System.Windows.Forms
 Imports DevExpress.UserSkins
 Imports DevExpress.Skins
 
-Namespace WinFormsViewerSaveAndApplyDashboarState
-	Friend Module Program
+Namespace WinFormsViewerSaveAndApplyDashboardState
+	Friend NotInheritable Class Program
+
+		Private Sub New()
+		End Sub
+
 		''' <summary>
 		''' The main entry point for the application.
 		''' </summary>
 		<STAThread>
-		Sub Main()
+		Shared Sub Main()
 			Application.EnableVisualStyles()
 			Application.SetCompatibleTextRenderingDefault(False)
 
 			BonusSkins.Register()
 			Application.Run(New ViewerForm1())
 		End Sub
-	End Module
+	End Class
 End Namespace

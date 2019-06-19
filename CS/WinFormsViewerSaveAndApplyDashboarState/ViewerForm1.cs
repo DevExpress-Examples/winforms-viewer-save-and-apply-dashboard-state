@@ -4,7 +4,7 @@ using System;
 using System.Windows.Forms;
 using System.Xml.Linq;
 
-namespace WinFormsViewerSaveAndApplyDashboarState
+namespace WinFormsViewerSaveAndApplyDashboardState
 {
     public partial class ViewerForm1: XtraForm
     {
@@ -12,6 +12,8 @@ namespace WinFormsViewerSaveAndApplyDashboarState
         const string path = @"..\..\Dashboards\dashboardWithSavedState.xml";
         public ViewerForm1() {
             InitializeComponent();
+            dashboardViewer.DashboardLoaded += dashboardViewer_DashboardLoaded;
+            dashboardViewer.SetInitialDashboardState += dashboardViewer_SetInitialDashboardState;
             dashboardViewer.DashboardSource = path;
         }
 

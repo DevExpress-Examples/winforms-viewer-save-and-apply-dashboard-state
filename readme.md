@@ -19,5 +19,6 @@ The dashboard state is restored using the [DashboardViewer.SetDashboardState](ht
 ## See Also
 
 - [Manage Dashboard State](https://docs.devexpress.com/Dashboard/400729/create-the-designer-and-viewer-applications/winforms-viewer/manage-dashboard-state)
+- [How to Save and Restore the Dashboard State](https://github.com/DevExpress-Examples/winforms-dashboard-save-restore-dashboard-state)
 - [How to Set the Initial Dashboard State in the WinForms Designer](https://github.com/DevExpress-Examples/winforms-designer-save-and-apply-dashboard-state)
 - [How to Set the Initial Dashboard State in the WPF Dashboard](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-set-initial-dashboard-state)

@@ -1,4 +1,4 @@
-﻿namespace WinFormsViewerSaveAndApplyDashboarState
+﻿namespace WinFormsViewerSaveAndApplyDashboardState
 {
     partial class ViewerForm1
     {
@@ -41,8 +41,6 @@
             this.dashboardViewer.Size = new System.Drawing.Size(986, 628);
             this.dashboardViewer.TabIndex = 0;
             this.dashboardViewer.UseNeutralFilterMode = true;
-            this.dashboardViewer.DashboardLoaded += new DevExpress.DashboardWin.DashboardLoadedEventHandler(this.dashboardViewer_DashboardLoaded);
-            this.dashboardViewer.SetInitialDashboardState += new DevExpress.DashboardWin.SetInitialDashboardStateEventHandler(this.dashboardViewer_SetInitialDashboardState);
             // 
             // ViewerForm1
             // 
@@ -51,7 +49,7 @@
             this.ClientSize = new System.Drawing.Size(986, 628);
             this.Controls.Add(this.dashboardViewer);
             this.Name = "ViewerForm1";
-            this.Text = "Dashboard Viewer";
+            this.Text = "Dashboard State Example";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ViewerForm1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.dashboardViewer)).EndInit();
             this.ResumeLayout(false);
