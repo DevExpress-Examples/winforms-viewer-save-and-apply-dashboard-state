@@ -94,4 +94,7 @@
       <DashboardState>&lt;DashboardState&gt;&lt;Items&gt;&lt;Item Name="choroplethMapDashboardItem1" LayerIndex="1"&gt;&lt;MasterFilter&gt;&lt;Values&gt;&lt;Value Type="System.String" Value="Texas" /&gt;&lt;/Values&gt;&lt;/MasterFilter&gt;&lt;/Item&gt;&lt;Item Name="gridDashboardItem1"&gt;&lt;DrillDown&gt;&lt;Value Type="System.String" Value="Bikes" /&gt;&lt;/DrillDown&gt;&lt;/Item&gt;&lt;/Items&gt;&lt;/DashboardState&gt;</DashboardState>
     </Root>
   </UserData>
+  <CustomProperties>
+    <DashboardState>&lt;DashboardState&gt;&lt;Items&gt;&lt;Item Name="choroplethMapDashboardItem1" LayerIndex="1"&gt;&lt;Range&gt;&lt;Selection /&gt;&lt;/Range&gt;&lt;MasterFilter&gt;&lt;Values&gt;&lt;Value Type="System.String" Value="Wyoming" /&gt;&lt;/Values&gt;&lt;/MasterFilter&gt;&lt;DrillDown /&gt;&lt;/Item&gt;&lt;/Items&gt;&lt;/DashboardState&gt;</DashboardState>
+  </CustomProperties>
 </Dashboard>
