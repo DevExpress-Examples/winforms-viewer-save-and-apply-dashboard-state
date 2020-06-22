@@ -92,7 +92,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="ViewerForm1.resx">
       <DependentUpon>ViewerForm1.cs</DependentUpon>
     </EmbeddedResource>

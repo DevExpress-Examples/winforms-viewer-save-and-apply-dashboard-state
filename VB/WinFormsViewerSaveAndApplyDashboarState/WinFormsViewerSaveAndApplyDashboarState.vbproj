@@ -108,7 +108,6 @@
     </Compile>
     <Compile Include="Program.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
-    <EmbeddedResource Include="My Project\licenses.licx" />
     <EmbeddedResource Include="ViewerForm1.resx">
       <DependentUpon>ViewerForm1.vb</DependentUpon>
     </EmbeddedResource>
