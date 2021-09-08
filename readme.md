@@ -3,7 +3,12 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T828679)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# How to Set the Initial Dashboard State in the WinForms Viewer
+<!-- default file list -->
+*Files to look at*:
+
+* [ViewerForm1.cs](./CS/WinFormsViewerSaveAndApplyDashboarState/ViewerForm1.cs) (VB: [ViewerForm1.vb](./VB/WinFormsViewerSaveAndApplyDashboarState/ViewerForm1.vb))
+<!-- default file list end -->
+# Dashboard for WinForms - How to Set the Initial Dashboard State in the Viewer
 
 This example shows how to manage the dashboard state to save and restore selected master filter values, current drill-down levels and other selections such as the selected Choropleth Map's layer.
 
@@ -19,9 +24,13 @@ When the dashboard is closed, the [DashboardViewer.GetDashboardState](https://do
 
 When the application starts, the **DashboardViewer** loads the dashboard and the [DashboardState](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardState) object is deserialized and restored using the **GetDataFromString** method in the [DashboardViewer.SetInitialDashboardState](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.SetInitialDashboardState) event.
 
-## See Also
+## Documentation
 
 - [Manage Dashboard State](https://docs.devexpress.com/Dashboard/400729/create-the-designer-and-viewer-applications/winforms-viewer/manage-dashboard-state)
-- [How to Save and Restore the Dashboard State](https://github.com/DevExpress-Examples/winforms-dashboard-save-restore-dashboard-state)
-- [How to Set the Initial Dashboard State in the WinForms Designer](https://github.com/DevExpress-Examples/winforms-designer-save-and-apply-dashboard-state)
-- [How to Set the Initial Dashboard State in the WPF Dashboard](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-set-initial-dashboard-state)
+- [CustomProperties](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.Dashboard.CustomProperties)
+
+## More Examples
+
+- [Dashboard for WinForms - How to Save and Restore the Dashboard State](https://github.com/DevExpress-Examples/winforms-dashboard-save-restore-dashboard-state)
+- [Dashboard for WinForms - Set the Initial Dashboard State in Designer](https://github.com/DevExpress-Examples/winforms-designer-save-and-apply-dashboard-state)
+- [Dashboard for WPF - How to Set the Initial Dashboard State](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-set-initial-dashboard-state)
