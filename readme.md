@@ -3,11 +3,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T828679)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [ViewerForm1.cs](./CS/WinFormsViewerSaveAndApplyDashboarState/ViewerForm1.cs) (VB: [ViewerForm1.vb](./VB/WinFormsViewerSaveAndApplyDashboarState/ViewerForm1.vb))
-<!-- default file list end -->
 # Dashboard for WinForms - How to Set the Initial Dashboard State in the Viewer
 
 This example shows how to manage the dashboard state to save and restore selected master filter values, current drill-down levels and other selections such as the selected Choropleth Map's layer.
@@ -23,6 +19,10 @@ The saved dashboard state contains the following settings:
 When the dashboard is closed, the [DashboardViewer.GetDashboardState](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.GetDashboardState) method obtains a dashboard state object. It is serialized to XML and added to the **XElement** object stored in the [CustomProperties](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.Dashboard.CustomProperties) collection. Subsequently, the dashboard with the dashboard state data is saved to the dashboard xml file.
 
 When the application starts, the **DashboardViewer** loads the dashboard and the [DashboardState](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardState) object is deserialized and restored using the **GetDataFromString** method in the [DashboardViewer.SetInitialDashboardState](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.SetInitialDashboardState) event.
+
+## Files to Review
+
+* [ViewerForm1.cs](./CS/WinFormsViewerSaveAndApplyDashboarState/ViewerForm1.cs) (VB: [ViewerForm1.vb](./VB/WinFormsViewerSaveAndApplyDashboarState/ViewerForm1.vb))
 
 ## Documentation
 
